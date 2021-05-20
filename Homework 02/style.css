@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    font-size: 18px;
+    padding-right: 30px;
+    outline: 1px solid black;
+}
+
+.cart-button {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+    background-color: inherit;
+}
+
+.goods-list {
+    padding-top: 30px;
+    width: 870px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.goods-item {
+    outline: 1px solid black;
+    width: 120px;
+    min-height: 200px;
+    text-align: center;
+    padding: 5px;
+}
+
+.goods-item h3 {
+    font-size: 18px;
+}
+
+.total-cost {
+    margin-top: 50px;
+    text-align: center;
+}
