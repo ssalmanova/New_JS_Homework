@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 04</title>
+</head>
+
+<body>
+    <div class="text-before"></div>
+    <div class="text-after"></div>
+    <script>
+    let textBefore = "Lorem 'ipsum' dolor sit amet 'consectetur' adipisic'ing elit. Maxime inventore eligendi 'place'at' fuga distincti";
+        
+    document.querySelector('.text-before').innerHTML = textBefore;
+
+    let textAfter = textBefore.replace(/\b'\B|\B'\b/gm, '"');
+
+    document.querySelector('.text-after').innerHTML = textAfter;
+    </script>
+</body>
+
+</html>
